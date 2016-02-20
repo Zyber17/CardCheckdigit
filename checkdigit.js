@@ -1,9 +1,9 @@
-// Please not that just because a card number is 'valid' it does not necessarily have to be an actual card.
-// The checksum hashing function is quite vulnerable to collision attacks.
+// Please note that just because a card number is 'valid' it does not necessarily have to be an actual card.
+// The checkdigit hashing function is quite vulnerable to collision attacks.
 
 // For an explanation of how it works, see https://www.youtube.com/watch?v=hWkAe9FsfiE
 
-var checksum = function (number) {
+var checkdigit = function (number) {
 	checksum = 0;
 	
 	for(i = 0; i < 15; i++) {
@@ -26,4 +26,4 @@ var checksum = function (number) {
 	return (parseInt(number.charAt(15)) == checkdigit);
 }
 
-module.exports = checksum; // For Node
+module.exports = checkdigit; // For Node

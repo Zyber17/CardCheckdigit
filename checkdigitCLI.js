@@ -12,8 +12,8 @@ if(!process.argv[2]){ // Was there an argument?
 number = process.argv[2];
 
 if(/\d{16}/.test(number)) { // Is the argument a card number?
-	var checksum = require('./checksum.js');
-	validNumber = checksum(number);
+	var checkdigit = require('./checkdigit.js');
+	validNumber = checkdigit(number);
 
 	if(validNumber) {
 		console.log("The provided credit card number is valid.");
