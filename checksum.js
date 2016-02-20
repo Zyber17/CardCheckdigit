@@ -22,6 +22,7 @@ var checksum = function (number) {
 	// Find the number we need to add to the checksum to make it mod 10 = 0
 	checkdigit = (10 - (checksum % 10)) % 10;
 
+	// Does the provided checkdigit (last digit of card) and what the checkdigit should be match?
 	return (parseInt(number.charAt(15)) == checkdigit);
 }
 
