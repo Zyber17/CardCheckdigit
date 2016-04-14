@@ -9,7 +9,7 @@ var checkdigit = function (number) {
 	for(i = 0; i < 15; i++) {
 		digit = parseInt(number.charAt(i));
 		if(i % 2 == 0) {
-			// If the number is five or bigger, it times two will b 10 + some single digit number
+			// If the number is five or bigger, it times two will be 10 + some single digit number
 			if(digit >= 5){
 				checksum += 1;
 			}
