@@ -1,0 +1,1 @@
+int checkdigit(long int);
