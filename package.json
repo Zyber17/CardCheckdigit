@@ -1,0 +1,22 @@
+{
+  "name": "cardcheckdigit",
+  "version": "1.0.0",
+  "description": "Preforms the checksum calcuation on a credit card",
+  "main": "checkdigit.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zyber17/CardCheckdigit.git"
+  },
+  "author": "Z Corbett",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Zyber17/CardCheckdigit/issues"
+  },
+  "homepage": "https://github.com/Zyber17/CardCheckdigit#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
